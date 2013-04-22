@@ -2,16 +2,16 @@
 <manifest>
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
-  <project name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" remote="aokp" revision="cm-10.1" />
+  <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_u8860" path="device/huawei/u8860" remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" remote="aokp" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/android_vendor_huawei" path="vendor/huawei"  remote="aokp" revision="cm-10.1" />
-  <project name="ivan19871002/android_hardware_atheros_wifi_libs" path="hardware/atheros/wifi/libs" remote="aokp" revision="cm-10.1" />
+  <project name="AOKP-MEDIAPAD/android_kernel_huawei_honor" path="kernel/huawei/honor"  remote="aokp" revision="cm-10.1" />
   <project name="Evervolv/android_frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
   <project name="Evervolv/android_frameworks_native" remote="aokp" revision="jellybean" path="frameworks/native"  />
   <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware"  remote="aokp" revision="jellybean"/>
