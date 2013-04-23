@@ -5,18 +5,19 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
-  <project name="AOKP-MEDIAPAD/android_device_huawei_u8860" path="device/huawei/u8860" remote="aokp" revision="jb-mr1" />
+  <project name="ShenduOS/android_device_huawei_u8860" path="device/huawei/u8860" remote="aokp" revision="jellybean" />
   <project name="ShenduOS/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" remote="aokp" revision="jellybean" />
   <project name="ShenduOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jellybean" />
   <project name="ShenduOS/android_vendor_huawei" path="vendor/huawei"  remote="aokp" revision="dev" />
-  <project name="ShenduOS/android_kernel_huawei_honor" path="kernel/huawei/honor"  remote="aokp" revision="jb-dev" />
   <project name="ShenduOS/android_frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
   <project name="ShenduOS/android_frameworks_native" remote="aokp" revision="jellybean" path="frameworks/native"  />
   <project name="ShenduOS/android_hardware_libhardware" path="hardware/libhardware"  remote="aokp" revision="jellybean"/>
-  <project name="ShenduOS/android_hardware_qcom_display" path="hardware/qcom/display-legacy"  remote="aokp" revision="jellybean"/>
+  <project name="ShenduOS/android_hardware_qcom_display" path="hardware/qcom/display"  remote="aokp" revision="jellybean"/>
   <project name="ShenduOS/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="jellybean" />
+  <project path="hardware/qcom/audio" name="ShenduOS/android_hardware_qcom_audio" remote="aokp"  revision="jellybean" />
 </manifest>
