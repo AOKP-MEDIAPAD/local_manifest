@@ -13,7 +13,6 @@
   <project name="ShenduOS/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" remote="aokp" revision="jellybean" />
   <project name="ShenduOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jellybean" />
   <project name="ShenduOS/android_vendor_huawei" path="vendor/huawei"  remote="aokp" revision="dev" />
-  <project name="ShenduOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jellybean" />
   <project name="ShenduOS/android_kernel_huawei_honor" path="kernel/huawei/honor"  remote="aokp" revision="jb-dev" />
   <project name="ShenduOS/android_frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
   <project name="ShenduOS/android_frameworks_native" remote="aokp" revision="jellybean" path="frameworks/native"  />
