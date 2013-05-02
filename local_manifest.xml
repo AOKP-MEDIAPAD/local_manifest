@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <!-- HuaWei Msm7x30 -->
-  <project path="device/huawei/u8860" name="AOKP-MEDIAPAD/android_device_huawei_u8860" remote="aokp" revision="jb-mr1-mod" />
-  <project path="device/huawei/msm7x30-common" name="ivan19871002/android_device_huawei_msm7x30-common" remote="aokp" revision="cm-10.1" />
-  <project path="kernel/huawei/honor" name="AOKP-MEDIAPAD/android_kernel_huawei_honor" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/display-legacy" name="ivan19871002/android_hardware_qcom_display" remote="aokp" revision="cm-10.1-new" />
+  <project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="aokp" revision="cm-10.1" />
+  <project name="aftersilence/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="aokp" revision="jellybean" />
+  <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="aokp" revision="jellybean" />
+  <project path="device/huawei/u8860" name="AOKP-MEDIAPAD/android_device_huawei_u8860" remote="aokp" revision="jb-mr1" />
+  <project path="device/huawei/msm7x30-common" name="AOKP-MEDIAPAD/android_device_huawei_msm7x30-common" remote="aokp" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
-  <!-- HuaWei Vendor -->
   <project path="vendor/huawei" name="ivan19871002/android_vendor_huawei" remote="aokp" revision="cm-10.1" />  
 </manifest>
