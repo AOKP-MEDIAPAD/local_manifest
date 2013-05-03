@@ -2,12 +2,14 @@
 <manifest>
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_u8860" path="device/huawei/u8860"  remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common"  remote="aokp" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aokp" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/android_kernel_huawei_honor" path="kernel/huawei/honor"  remote="aokp" revision="cm-10.1" />
-  <project name="ivan19871002/android_hardware_qcom_display" path="hardware/qcom/display" remote="aokp" revision="cm-10.1-new" />
+  <project name="zyr3x/android_hardware_qcom_display" path="hardware/qcom/display" remote="aokp" revision="cm-10.1-new" />
+  <project name="zyr3x/android_hardware_qcom_media" path="hardware/qcom/media" remote="aokp" revision="cm-10.1" />
   <project name="ivan19871002/android_vendor_huawei"  path="vendor/huawei" remote="aokp" revision="cm-10.1" />  
 </manifest>
