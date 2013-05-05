@@ -2,17 +2,13 @@
 <manifest>
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
-  <project name="Evervolv/android_hardware_qcom_media" path="hardware/qcom/media" remote="aokp" revision="jellybean" />
+  <project name="CyanogenMod/android_frameworks_av" path="frameworks/av" remote="aokp" revision="cm-10.1" />
   <project name="Evervolv/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jellybean" />
-  <project name="Evervolv/android_frameworks_av" path="frameworks/av" remote="aokp" revision="jellybean" />
-  <project name="Evervolv/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="aokp" revision="jellybean" />
   <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1-u8860" />
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aokp" revision="cm-10.1" />
@@ -20,6 +16,6 @@
   <project name="AOKP-MEDIAPAD/android_device_huawei_u8860" path="device/huawei/u8860" remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common"  remote="aokp" revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
-  <project name="ivan19871002/android_vendor_huawei" path="vendor/huawei" remote="aokp" revision="cm-10.1" />
-  <project name="ivan19871002/android_hardware_qcom_display" path="hardware/qcom/display" remote="aokp" revision="cm-10.1-new" />
+  <project name="AOKP-MEDIAPAD/android_vendor_huawei" path="vendor/huawei" remote="aokp" revision="cm-10.1" />
+  <project name="AOKP-MEDIAPAD/android_hardware_qcom_display" path="hardware/qcom/display" remote="aokp" revision="cm-10.1-new" />
 </manifest>
