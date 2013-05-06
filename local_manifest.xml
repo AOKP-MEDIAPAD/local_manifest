@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="AOKP/vendor_aokp" />
-  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
-  <project name="CyanogenMod/android_frameworks_av" path="frameworks/av" remote="aokp" revision="cm-10.1" />
   <project name="Evervolv/android_hardware_qcom_media" path="hardware/qcom/media" remote="aokp" revision="jellybean" />
   <project name="Evervolv/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jellybean" />
   <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1-u8860" />
