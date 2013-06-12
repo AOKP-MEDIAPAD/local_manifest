@@ -9,6 +9,7 @@
   <remove-project name="AOKP/system_core" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="AOKP/external_bluetooth_bluedroid" />
+  <remove-project name="AOKP/packages_apps_PackageInstaller" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_device_common"  />
@@ -30,6 +31,7 @@
   <project name="AOKPZMod/build" path="build"  remote="aokp" revision="jb-mr1-bluez" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="AOKPZMod/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod2" path="packages/apps/ROMControl"  />
   <project name="AOKPZMod/system_core" path="system/core"  remote="aokp" revision="jb-mr1-bluez" />
