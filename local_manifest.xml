@@ -49,4 +49,5 @@
   <project name="AOKPZMod/external_bluetooth_bluez" path="external/bluetooth/bluez" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/external_bluetooth_glib" path="external/bluetooth/glib" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/android_device_common" path="device/common" remote="aokp" revision="cm-10.1-bluez" />
+  <project name="AOKPZMod/HALO" remote="aokp" revision="jellybean" path="packages/apps/HALO"  />
 </manifest>
