@@ -33,7 +33,7 @@
   </project>
   <project name="AOKPZMod/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
-  <project name="AOKPZMod/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod2" path="packages/apps/ROMControl"  />
+  <project name="AOKPZMod/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod" path="packages/apps/ROMControl"  />
   <project name="AOKPZMod/system_core" path="system/core"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKPZMod/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKPZMod/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1" />
