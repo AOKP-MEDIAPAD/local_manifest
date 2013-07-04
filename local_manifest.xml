@@ -17,6 +17,7 @@
   <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="platform/packages/apps/Bluetooth"  />
   <remove-project name="platform/system/bluetooth" />
+  <remove-project name="AOKP/packages_providers_MediaProvider" />
   <!--aftersilence-->
   <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="aokp" revision="cm-10.1" />
@@ -53,4 +54,5 @@
   <project name="AOKPZMod/external_bluetooth_glib" path="external/bluetooth/glib" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/android_device_common" path="device/common" remote="aokp" revision="cm-10.1-bluez" />
   <project name="AOKPZMod/HALO" remote="aokp" revision="jellybean" path="packages/apps/HALO"  />
+  <project name="AOKPZMod/packages_providers_MediaProvider" remote="aokp" revision="jb-mr1-mod" path="packages/providers/MediaProvider"  />
 </manifest>
