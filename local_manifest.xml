@@ -23,10 +23,8 @@
   <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="aokp" revision="cm-10.1" />
   <project name="aftersilence/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="aokp" revision="jellybean" />
-  <!--Team-Hydra-->
-   <project name="Team-Hydra/android_hardware_qcom_media-legacy"  remote="aokp" path="hardware/qcom/media-legacy" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="Evervolv/android_hardware_qcom_display" remote="aokp" revision="jellybean" />  
   <!--CyanogenMod-->
-  <project name="CyangenMod/android_external_sepolicy" path="external/sepolicy" remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
