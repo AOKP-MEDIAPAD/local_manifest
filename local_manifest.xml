@@ -41,7 +41,7 @@
   <project name="AOKPZMod/system_core" path="system/core"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKPZMod/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKPZMod/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1" />
-  <project name="AOKPZMod/frameworks_base" remote="aokp" revision="jb-mr1-bluez-mod" path="frameworks/base"  />
+  <project name="AOKPZMod/frameworks_base" remote="aokp" revision="jb-mr1-bluez-final" path="frameworks/base"  />
   <project name="AOKPZMod/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKPZMod/android_device_huawei_hws7300u" remote="aokp"  path="device/huawei/hws7300u" revision="jb-mr1" />
   <project name="AOKPZMod/android_vendor_huawei_hws7300u_proprietary" remote="aokp"  path="vendor/huawei/hws7300u"  revision="jb"  />
